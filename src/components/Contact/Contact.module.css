@@ -39,7 +39,7 @@
 .text {
   margin: 0;
   font-size: 16px;
-  color: #333;
+  color: #000000;
 }
 
 .btn {
@@ -48,16 +48,11 @@
   border: none;
   border-radius: 4px;
   padding: 8px 12px;
-  cursor: pointer;
+
   font-size: 14px;
   transition: background-color 0.3s;
 }
 
 .btn:hover {
   background-color: #555;
-}
-
-.btn:focus {
-  outline: 2px solid #aaa;
-  outline-offset: 2px;
 }
